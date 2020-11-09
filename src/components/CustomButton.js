@@ -5,11 +5,11 @@ import {StyleSheet,Text,TouchableOpacity} from 'react-native';
 
 
 
-const CustomButton = ({onPress}) => {
+const CustomButton = ({onPress,text}) => {
     const {buttonStyle,textStyle}=styles;
   return (
         <TouchableOpacity  onPress={onPress}  style={buttonStyle} >
-         <Text style={textStyle}>Click Me!!!</Text>
+         <Text style={textStyle}>{text}</Text>
         </TouchableOpacity>
         
         

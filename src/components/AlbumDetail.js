@@ -16,7 +16,7 @@ const AlbumDetail = (props) => {
 
         </Card>
         <Card>
-        <CustomButton onPress={()=>Linking.openURL(props.data.url)}/>
+        <CustomButton onPress={()=>Linking.openURL(props.data.url)} text="Buy Now"/>
         </Card>
         </>
         
